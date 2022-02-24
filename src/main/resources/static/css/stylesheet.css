@@ -1,6 +1,13 @@
+body {
+    background-color: #212529;
+    color: #fff;
+    font-family: 'Stardos Stencil', cursive;
+}
+
 .navbar {
     padding-left: 50px;
     padding-right: 50px;
+    border-bottom: 1px solid #000;
 }
 
 .navbar-brand {
@@ -10,6 +17,11 @@
 
 span {
     color: #ffd700;
+}
+
+.navbar-nav > li > a {
+    font-size: 1.2rem;
+    margin: 0 .5rem;
 }
 
 .navbar-nav > li > a:hover {
@@ -27,4 +39,71 @@ span {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-radius: 0;
+    color: #fff;
+    caret-color: #ffd700;
+}
+
+#projectStart {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0 0;
+    font-size: 3.5rem;
+}
+
+.projectHeader {
+    margin: 3rem 0;
+}
+
+#tellUs {
+    margin-top: 5rem;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 2rem 3rem 0;
+}
+
+.input-group > .row > .col > input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffd700;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    color: #fff;
+    caret-color: #ffd700;
+}
+
+.projectChoice {
+    justify-content: center;
+}
+
+.projectChoice > div {
+    width: 150px;
+    height: 150px;
+    /*border: .02rem solid #ffd700;*/
+    margin: 2rem;
+    justify-content: center;
+    border-image:
+            linear-gradient(
+                    to bottom,
+                    #ffd700,
+                    rgba(0, 0, 0, 0)
+            ) 1 100%;
+}
+
+.projectChoice > div:hover {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffd700;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.projectChoice > div > i {
+    font-size: 3rem;
+    color: #ffd700;
 }
