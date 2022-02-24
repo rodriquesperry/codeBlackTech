@@ -1,0 +1,30 @@
+.navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 1.8rem;
+}
+
+span {
+    color: #ffd700;
+}
+
+.navbar-nav > li > a:hover {
+    border-bottom: 3px solid #ffd700;
+}
+
+.searchForm {
+    color: #fff;
+}
+
+#searchInput {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
