@@ -2,6 +2,7 @@ body {
     background-color: #212529;
     color: #fff;
     font-family: 'Stardos Stencil', cursive;
+    padding-top: 50px;
 }
 
 .navbar {
@@ -48,11 +49,11 @@ span {
     display: flex;
     justify-content: center;
     margin: 4rem 0 0;
-    font-size: 3.5rem;
+    font-size: 3.9rem;
 }
 
 .projectHeader {
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 
 #tellUs {
@@ -81,7 +82,7 @@ span {
 }
 
 .projectChoice > div {
-    width: 150px;
+    width: 175px;
     height: 150px;
     /*border: .02rem solid #ffd700;*/
     margin: 2rem;
@@ -95,7 +96,7 @@ span {
 }
 
 .projectChoice > div:hover {
-    background: transparent;
+    background: rgba(105,105,105, 0.2);
     border: none;
     border-bottom: 1px solid #ffd700;
     -webkit-box-shadow: none;
@@ -106,4 +107,8 @@ span {
 .projectChoice > div > i {
     font-size: 3rem;
     color: #ffd700;
+}
+
+.projectChoice > div > div {
+    font-size: 1.3rem;
 }
