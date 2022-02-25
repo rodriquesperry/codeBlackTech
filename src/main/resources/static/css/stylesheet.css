@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(33, 37, 41, 0.97);
+    background-color: rgba(24, 28, 28, 0.97);
     color: #fff;
     font-family: 'Stardos Stencil', cursive;
     padding-top: 50px;
@@ -45,12 +45,21 @@ span {
 }
 
 .jumbotron {
-    background: url("../img/OurMission.png") no-repeat fixed;
+    background: url("../img/OurMissionMobile.png") center center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: 100% 100%;
     -o-background-size: cover;
     min-height: 800px;
+}
+
+.card {
+    background-color: rgba(24, 28, 28, 0.97);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.70), -.1em 0 .4em #ffd700;
+}
+
+.service-card {
+    background-color: black;
 }
 
 #projectStart {
@@ -61,7 +70,7 @@ span {
     font-size: 3.9rem;
 }
 
-.projectHeader {
+.sectionHeader {
     margin: 2rem 0;
 }
 
@@ -120,4 +129,28 @@ span {
 
 .projectChoice > div > div {
     font-size: 1.3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        background: url("../img/OurMission.png") center center no-repeat fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: 100% 100%;
+        -o-background-size: cover;
+        min-height: 800px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+    .navbar-nav > li > a {
+        font-size: .95rem;
+        margin: 0 .3rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .jumbotron {
+        min-height: 900px;
+    }
 }
