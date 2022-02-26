@@ -8,7 +8,7 @@ body {
 .navbar {
     padding-left: 50px;
     padding-right: 50px;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid rgba(215, 209, 209, 0.32);
 }
 
 .navbar-brand {
@@ -54,12 +54,35 @@ span {
 }
 
 .card {
-    background-color: rgba(24, 28, 28, 0.97);
-    box-shadow: 3px 3px rgba(0, 0, 0, 0.70), -.1em 0 .4em #ffd700;
+    background-color: #1f1f1f;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.70), -.01em 0 .1em #fff;
+}
+
+.serviceCardContainer {
+    margin-bottom: 5rem;
 }
 
 .service-card {
     background-color: black;
+    margin: 2rem;
+}
+
+.service-card > div > div {
+    color: #ffd700;
+    width: 200px;
+}
+
+.service-card > div > div > i {
+    font-size: 3rem;
+    color: rgba(255, 215, 0, 0.85);
+}
+
+.container3 {
+    background: url("../img/pexels-mikael-blomkvist-6476587.jpeg") center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 100% 100%;
+    -o-background-size: cover;
 }
 
 #projectStart {
@@ -72,6 +95,7 @@ span {
 
 .sectionHeader {
     margin: 2rem 0;
+    font-size: 2.5rem;
 }
 
 #tellUs {
@@ -130,6 +154,7 @@ span {
 .projectChoice > div > div {
     font-size: 1.3rem;
 }
+
 
 @media screen and (min-width: 768px) {
     .jumbotron {
