@@ -77,8 +77,13 @@ span {
     color: rgba(255, 215, 0, 0.85);
 }
 
+.service-card > div > ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 .container3 {
-    background: url("../img/pexels-mikael-blomkvist-6476587.jpeg") center center no-repeat fixed;
+    background: url("../img/pexels-mikael-blomkvist-6476587.jpeg") center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: 100% 100%;
@@ -166,12 +171,12 @@ span {
 
 @media screen and (min-width: 768px) {
     .jumbotron {
-        background: url("../img/OurMission.png") center center no-repeat fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
+        background: url("../img/OurMission.png") center center no-repeat ;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
         background-size: 100% 100%;
-        -o-background-size: cover;
-        min-height: 800px;
+        -o-background-size: 100% 90%;
+        /*min-height: 800px;*/
     }
 }
 

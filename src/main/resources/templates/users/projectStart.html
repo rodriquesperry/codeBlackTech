@@ -7,7 +7,7 @@
 <body>
     <div th:replace="partials.html :: navbar"></div>
     <h1 id="projectStart">Start A Project</h1>
-    <h2 class="text-center sectionHeader">A little bit about you</h2>
+    <h2 class="text-center sectionHeader">A little bit about you <span>*</span></h2>
     <form action="">
         <div class="input-group mb-3">
             <div class="row">
@@ -42,7 +42,7 @@
             </div>
         </div>
 
-        <h2 class="text-center sectionHeader" id="tellUs">Tell us about your project</h2>
+        <h2 class="text-center sectionHeader" id="tellUs">Tell us about your project <span>*</span></h2>
         <div class="row projectChoice">
             <div class="btn btn-dark"><i class="bi bi-star-half"></i><div>Branding</div></div>
             <div class="btn btn-dark"><i class="bi bi-laptop"></i><div>Website Development</div></div>
@@ -52,16 +52,16 @@
 
         <h3 class="text-center my-4" id="challenge">What is your business challenge?</h3>
         <div class="container">
-            <div class="form-floating mx-auto" style="width: 90%">
+            <div class="form-floating mx-auto" style="width: 70%">
                 <textarea class="form-control" placeholder="Leave a comment here" id="challengeInput" style="height: 200px"></textarea>
             </div>
         </div>
 
-        <h3 class="text-center my-4" id="budget">What is your ideal budget?</h3>
+        <h3 class="text-center my-5" id="budget">What is your ideal budget? <span>*</span></h3>
         <div class="container" style="width: 60%">
             <div class="row d-flex justify-content-center" id="budgetButtons">
                 <div class="col-6 d-flex justify-content-end">
-                    <button class="btn btn-warning"><input type="checkbox">$0 - $1,000</input></button>
+                    <button class="btn btn-warning" for="checkbox1"><input type="checkbox" id="checkbox1">$0 - $1,000</button>
                 </div>
                 <div class="col-6">
                     <button class="btn btn-warning"><input type="checkbox">$1,000 - $5,000</input></button>
@@ -85,8 +85,8 @@
                     <button class="btn btn-warning"><input type="checkbox">Above $100,000</input></button>
                 </div>
             </div>
-            <div class="d-flex justify-content-center">
-                <button type="submit" class="btn btn-danger btn-lg mx-auto">submit</button>
+            <div class="d-flex justify-content-center my-5">
+                <button type="submit" class="btn btn-success btn-lg">submit</button>
             </div>
         </div>
     </form>
