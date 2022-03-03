@@ -6,9 +6,21 @@
 </head>
 <body>
     <div th:replace="partials.html :: navbar"></div>
-    <div class="jumbotron jumbotron-fluid"><div class="container"></div></div>
-    <section>
-        <div class="container" id="services">
+
+    <div class="bg"></div>
+
+    <div class="jumbotron jumbotron-fluid text-center">
+        <p class = "location-name"> University of Illinios Urbana-Champaign</p>
+        <p class ="building-name">ECE Engineering Building</p>
+        <div class = "menu-links"><a href = "#" class = "btn btn-primary btn-large">Online Editing</a></div>
+        <div class = "menu-links"><a href = "#" class = "btn btn-primary btn-large">Building FCA Query</a></div>
+        <div class = "menu-links"><a href = "#" class = "btn btn-primary btn-large">Chart FCA Query</a></div>
+        <div class = "menu-links"><a href = "#" class = "btn btn-primary btn-large">Facility Document Management CP</a></div>
+        <div class = "menu-links"><a href = "#" class = "btn btn-primary btn-large">Facility Document Management Query</a></div>
+    </div>
+
+    <section id="services">
+        <div class="container">
             <h2 class="text-center sectionHeader">Our Services</h2>
             <div class="row">
                 <div class="col-sm-6 col-md-3">
@@ -80,6 +92,6 @@
 
 
 
-
+    <div th:replace="partials.html :: scripts"></div>
 </body>
 </html>
